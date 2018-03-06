@@ -2,8 +2,8 @@
 declare(strict_types=1);
 // Add theme supported features.
 
-require __DIR__.'/post-types/student.php';
-require __DIR__.'/taxonomies/course.php';
+require __DIR__.'/post-types/employee.php';
+require __DIR__.'/taxonomies/location.php';
 
 
 add_action('after_setup_theme', function () {
